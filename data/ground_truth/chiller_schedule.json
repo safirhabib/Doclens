@@ -1,0 +1,33 @@
+{
+  "document_id": "chiller_schedule",
+  "equipment": [
+    {
+      "tag": "CH-01",
+      "type": "Centrifugal Chiller",
+      "quantity": 2,
+      "capacity": "400 tons",
+      "manufacturer": "York"
+    },
+    {
+      "tag": "CH-02",
+      "type": "Air-Cooled Chiller",
+      "quantity": 1,
+      "capacity": "150 tons",
+      "manufacturer": "Carrier"
+    },
+    {
+      "tag": "CT-01",
+      "type": "Cooling Tower",
+      "quantity": 2,
+      "capacity": "1200 GPM",
+      "manufacturer": "Baltimore Aircoil"
+    },
+    {
+      "tag": "P-401",
+      "type": "CHW Pump",
+      "quantity": 4,
+      "capacity": "800 GPM",
+      "manufacturer": "Bell & Gossett"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "document_id": "fire_schedule",
+  "equipment": [
+    {
+      "tag": "FP-01",
+      "type": "Fire Pump",
+      "quantity": 1,
+      "capacity": "1000 GPM",
+      "manufacturer": "Patterson"
+    },
+    {
+      "tag": "J-01",
+      "type": "Jockey Pump",
+      "quantity": 1,
+      "capacity": "10 GPM",
+      "manufacturer": "Grundfos"
+    },
+    {
+      "tag": "FT-01",
+      "type": "Fire Tank",
+      "quantity": 1,
+      "capacity": "15000 gal",
+      "manufacturer": "CST"
+    }
+  ]
+}

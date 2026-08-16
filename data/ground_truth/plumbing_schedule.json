@@ -1,0 +1,33 @@
+{
+  "document_id": "plumbing_schedule",
+  "equipment": [
+    {
+      "tag": "P-201",
+      "type": "Domestic Water Pump",
+      "quantity": 2,
+      "capacity": "80 GPM",
+      "manufacturer": "Grundfos"
+    },
+    {
+      "tag": "P-202",
+      "type": "Hot Water Recirc Pump",
+      "quantity": 2,
+      "capacity": "25 GPM",
+      "manufacturer": "Bell & Gossett"
+    },
+    {
+      "tag": "WH-01",
+      "type": "Water Heater",
+      "quantity": 1,
+      "capacity": "199 MBH",
+      "manufacturer": "AO Smith"
+    },
+    {
+      "tag": "HWT-01",
+      "type": "Hot Water Storage Tank",
+      "quantity": 1,
+      "capacity": "120 gal",
+      "manufacturer": "Lochinvar"
+    }
+  ]
+}

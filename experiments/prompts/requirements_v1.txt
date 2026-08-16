@@ -1,0 +1,12 @@
+Extract measurable compliance requirements from this owner/project requirements document.
+
+For each requirement return:
+- text: the original requirement sentence
+- metric: one of capacity, quantity, or another short field name
+- equipment_type: the kind of equipment (e.g. generator, air handling unit, centrifugal pump)
+- operator: one of >=, <=, >, <, =
+- threshold: numeric threshold
+- unit: unit string (kW, CFM, GPM, A) or empty if count/quantity
+- page: 1-based page number if known
+
+Only extract requirements that can be checked against an equipment schedule. Skip process commentary.

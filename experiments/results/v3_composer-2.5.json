@@ -1,0 +1,6792 @@
+{
+  "strategy": "v3",
+  "model": "composer-2.5",
+  "prompt_version": "extract_v3",
+  "dataset": "demo",
+  "accuracy": 99.71,
+  "field_accuracy": {
+    "capacity": 100.0,
+    "manufacturer": 100.0,
+    "quantity": 98.57,
+    "tag": 100.0,
+    "type": 100.0
+  },
+  "total_fields": 350,
+  "correct": 349,
+  "incorrect": 0,
+  "missing": 1,
+  "latency_ms_mean": 8628.0,
+  "comparisons": [
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-01",
+      "field": "tag",
+      "predicted": "B-01",
+      "ground_truth": "B-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          100.0,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-01",
+      "field": "type",
+      "predicted": "Hot Water Boiler",
+      "ground_truth": "Hot Water Boiler",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          214.48699951171875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          100.0,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-01",
+      "field": "capacity",
+      "predicted": "2,000 MBH",
+      "ground_truth": "2000 MBH",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          385.0019836425781,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-01",
+      "field": "manufacturer",
+      "predicted": "Aerco",
+      "ground_truth": "Aerco",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          453.98699951171875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-02",
+      "field": "tag",
+      "predicted": "B-02",
+      "ground_truth": "B-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          100.0,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-02",
+      "field": "type",
+      "predicted": "Condensing Boiler",
+      "ground_truth": "Condensing Boiler",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          219.7519989013672,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          100.0,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-02",
+      "field": "capacity",
+      "predicted": "1,500 MBH",
+      "ground_truth": "1500 MBH",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          385.0019836425781,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "B-02",
+      "field": "manufacturer",
+      "predicted": "Viessmann",
+      "ground_truth": "Viessmann",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          471.99603271484375,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "P-301",
+      "field": "tag",
+      "predicted": "P-301",
+      "ground_truth": "P-301",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          103.5009994506836,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "P-301",
+      "field": "type",
+      "predicted": "Boiler Circ Pump",
+      "ground_truth": "Boiler Circ Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          215.50399780273438,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "P-301",
+      "field": "quantity",
+      "predicted": "3",
+      "ground_truth": "3",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          103.5009994506836,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "P-301",
+      "field": "capacity",
+      "predicted": "150 GPM",
+      "ground_truth": "150 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          377.25299072265625,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "boiler_schedule",
+      "record_key": "P-301",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          465.9930114746094,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-01",
+      "field": "tag",
+      "predicted": "AHU-01",
+      "ground_truth": "AHU-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          331.3670349121094,
+          102.21698760986328,
+          369.8559875488281,
+          116.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-01",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          475.0,
+          171.32298278808594,
+          540.9970092773438,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          397.0,
+          171.32298278808594,
+          421.75,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-01",
+      "field": "capacity",
+      "predicted": "25000 CFM",
+      "ground_truth": "25000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          397.0,
+          171.32298278808594,
+          443.00799560546875,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-01",
+      "field": "manufacturer",
+      "predicted": "Trane",
+      "ground_truth": "Trane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.0,
+          171.32298278808594,
+          339.9880065917969,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-02",
+      "field": "tag",
+      "predicted": "AHU-02",
+      "ground_truth": "AHU-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          39.0,
+          193.32298278808594,
+          70.49100494384766,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-02",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          475.0,
+          193.32298278808594,
+          540.9970092773438,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          39.0,
+          171.32298278808594,
+          70.49100494384766,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-02",
+      "field": "capacity",
+      "predicted": "18000 CFM",
+      "ground_truth": "18000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          397.0,
+          193.32298278808594,
+          443.00799560546875,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "AHU-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.0,
+          193.32298278808594,
+          344.488037109375,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "P-101",
+      "field": "tag",
+      "predicted": "P-101",
+      "ground_truth": "P-101",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          39.0,
+          215.32298278808594,
+          60.500999450683594,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "P-101",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          475.0,
+          215.32298278808594,
+          539.2510986328125,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "P-101",
+      "field": "quantity",
+      "predicted": null,
+      "ground_truth": "4",
+      "match": false,
+      "failure_type": "missing",
+      "confidence": 0.15,
+      "source": null,
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "P-101",
+      "field": "capacity",
+      "predicted": "250 GPM",
+      "ground_truth": "250 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          397.0,
+          215.32298278808594,
+          432.25299072265625,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "P-101",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.0,
+          215.32298278808594,
+          352.9930114746094,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "EF-04",
+      "field": "tag",
+      "predicted": "EF-04",
+      "ground_truth": "EF-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          39.0,
+          237.32298278808594,
+          61.5,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "EF-04",
+      "field": "type",
+      "predicted": "Exhaust Fan",
+      "ground_truth": "Exhaust Fan",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          475.0,
+          237.32298278808594,
+          519.748046875,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "EF-04",
+      "field": "quantity",
+      "predicted": "3",
+      "ground_truth": "3",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          94.0,
+          215.32298278808594,
+          103.0,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "EF-04",
+      "field": "capacity",
+      "predicted": "5000 CFM",
+      "ground_truth": "5000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          397.0,
+          237.32298278808594,
+          438.50799560546875,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "EF-04",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.0,
+          237.32298278808594,
+          357.97900390625,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "G-01",
+      "field": "tag",
+      "predicted": "G-01",
+      "ground_truth": "G-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          108.01200103759766,
+          117.21698760986328,
+          130.61700439453125,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "G-01",
+      "field": "type",
+      "predicted": "Emergency Generator",
+      "ground_truth": "Emergency Generator",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          475.0,
+          259.322998046875,
+          554.218017578125,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "G-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          108.01200103759766,
+          117.21698760986328,
+          130.61700439453125,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "G-01",
+      "field": "capacity",
+      "predicted": "450 kW",
+      "ground_truth": "450 kW",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          229.59503173828125,
+          117.21698760986328,
+          264.7290344238281,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "challenge_messy",
+      "record_key": "G-01",
+      "field": "manufacturer",
+      "predicted": "Caterpillar",
+      "ground_truth": "Caterpillar",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.0,
+          259.322998046875,
+          357.4930725097656,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-01",
+      "field": "tag",
+      "predicted": "CH-01",
+      "ground_truth": "CH-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          106.49800109863281,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-01",
+      "field": "type",
+      "predicted": "Centrifugal Chiller",
+      "ground_truth": "Centrifugal Chiller",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          220.2469940185547,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          106.49800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-01",
+      "field": "capacity",
+      "predicted": "400 tons",
+      "ground_truth": "400 tons",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          372.7530212402344,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-01",
+      "field": "manufacturer",
+      "predicted": "York",
+      "ground_truth": "York",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          450.4949951171875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-02",
+      "field": "tag",
+      "predicted": "CH-02",
+      "ground_truth": "CH-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          106.49800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-02",
+      "field": "type",
+      "predicted": "Air-Cooled Chiller",
+      "ground_truth": "Air-Cooled Chiller",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          220.2469940185547,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          106.49800109863281,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-02",
+      "field": "capacity",
+      "predicted": "150 tons",
+      "ground_truth": "150 tons",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          372.7530212402344,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CH-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          457.488037109375,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CT-01",
+      "field": "tag",
+      "predicted": "CT-01",
+      "ground_truth": "CT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          105.4990005493164,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CT-01",
+      "field": "type",
+      "predicted": "Cooling Tower",
+      "ground_truth": "Cooling Tower",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          206.7469940185547,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CT-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          106.49800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CT-01",
+      "field": "capacity",
+      "predicted": "1,200 GPM",
+      "ground_truth": "1200 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          384.00299072265625,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "CT-01",
+      "field": "manufacturer",
+      "predicted": "Baltimore Aircoil",
+      "ground_truth": "Baltimore Aircoil",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          495.7471008300781,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "P-401",
+      "field": "tag",
+      "predicted": "P-401",
+      "ground_truth": "P-401",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          103.5009994506836,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "P-401",
+      "field": "type",
+      "predicted": "CHW Pump",
+      "ground_truth": "CHW Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          199.32298278808594,
+          196.25299072265625,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "P-401",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          103.5009994506836,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "P-401",
+      "field": "capacity",
+      "predicted": "800 GPM",
+      "ground_truth": "800 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          199.32298278808594,
+          377.25299072265625,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule",
+      "record_key": "P-401",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          199.32298278808594,
+          485.50506591796875,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-01",
+      "field": "tag",
+      "predicted": "CH-01",
+      "ground_truth": "CH-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-01",
+      "field": "type",
+      "predicted": "Centrifugal Chiller",
+      "ground_truth": "Centrifugal Chiller",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.855,
+      "source": {
+        "page": 1,
+        "bbox": [
+          312.96,
+          136.79999999999998,
+          315.84,
+          143.04
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-01",
+      "field": "capacity",
+      "predicted": "400 tons",
+      "ground_truth": "400 tons",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-01",
+      "field": "manufacturer",
+      "predicted": "York",
+      "ground_truth": "York",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-02",
+      "field": "tag",
+      "predicted": "CH-02",
+      "ground_truth": "CH-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-02",
+      "field": "type",
+      "predicted": "Air-Cooled Chiller",
+      "ground_truth": "Air-Cooled Chiller",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.855,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.24,
+          158.88,
+          351.84,
+          164.16
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-02",
+      "field": "capacity",
+      "predicted": "150 tons",
+      "ground_truth": "150 tons",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CH-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CT-01",
+      "field": "tag",
+      "predicted": "CT-01",
+      "ground_truth": "CT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CT-01",
+      "field": "type",
+      "predicted": "Cooling Tower",
+      "ground_truth": "Cooling Tower",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CT-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.855,
+      "source": {
+        "page": 1,
+        "bbox": [
+          312.96,
+          136.79999999999998,
+          315.84,
+          143.04
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CT-01",
+      "field": "capacity",
+      "predicted": "1,200 GPM",
+      "ground_truth": "1200 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "CT-01",
+      "field": "manufacturer",
+      "predicted": "Baltimore Aircoil",
+      "ground_truth": "Baltimore Aircoil",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "P-401",
+      "field": "tag",
+      "predicted": "P-401",
+      "ground_truth": "P-401",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "P-401",
+      "field": "type",
+      "predicted": "CHW Pump",
+      "ground_truth": "CHW Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "P-401",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.855,
+      "source": {
+        "page": 1,
+        "bbox": [
+          313.92,
+          203.04,
+          316.8,
+          207.84
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "P-401",
+      "field": "capacity",
+      "predicted": "800 GPM",
+      "ground_truth": "800 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "chiller_schedule_lowres",
+      "record_key": "P-401",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6412,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-01",
+      "field": "tag",
+      "predicted": "PN-01",
+      "ground_truth": "PN-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          105.4990005493164,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-01",
+      "field": "type",
+      "predicted": "Panelboard",
+      "ground_truth": "Panelboard",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          192.49099731445312,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-01",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          313.75,
+          133.32298278808594,
+          318.25,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-01",
+      "field": "capacity",
+      "predicted": "400 A",
+      "ground_truth": "400 A",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          364.24798583984375,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-01",
+      "field": "manufacturer",
+      "predicted": "Square D",
+      "ground_truth": "Square D",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          465.7409973144531,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-02",
+      "field": "tag",
+      "predicted": "PN-02",
+      "ground_truth": "PN-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.4990005493164,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-02",
+      "field": "type",
+      "predicted": "Panelboard",
+      "ground_truth": "Panelboard",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          192.49099731445312,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-02",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.4990005493164,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-02",
+      "field": "capacity",
+      "predicted": "225 A",
+      "ground_truth": "225 A",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          364.24798583984375,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "PN-02",
+      "field": "manufacturer",
+      "predicted": "Square D",
+      "ground_truth": "Square D",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          465.7409973144531,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "UPS-01",
+      "field": "tag",
+      "predicted": "UPS-01",
+      "ground_truth": "UPS-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          110.50300598144531,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "UPS-01",
+      "field": "type",
+      "predicted": "UPS",
+      "ground_truth": "UPS",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          110.50300598144531,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "UPS-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          110.50300598144531,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "UPS-01",
+      "field": "capacity",
+      "predicted": "80 kVA",
+      "ground_truth": "80 kVA",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          370.7459716796875,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "UPS-01",
+      "field": "manufacturer",
+      "predicted": "Eaton",
+      "ground_truth": "Eaton",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          452.99700927734375,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "XF-01",
+      "field": "tag",
+      "predicted": "XF-01",
+      "ground_truth": "XF-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          105.4990005493164,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "XF-01",
+      "field": "type",
+      "predicted": "Transformer",
+      "ground_truth": "Transformer",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          199.32298278808594,
+          196.9820098876953,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "XF-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.4990005493164,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "XF-01",
+      "field": "capacity",
+      "predicted": "500 kVA",
+      "ground_truth": "500 kVA",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          199.32298278808594,
+          375.2459716796875,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "electrical_schedule",
+      "record_key": "XF-01",
+      "field": "manufacturer",
+      "predicted": "Eaton",
+      "ground_truth": "Eaton",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          199.32298278808594,
+          452.99700927734375,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FP-01",
+      "field": "tag",
+      "predicted": "FP-01",
+      "ground_truth": "FP-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          104.0050048828125,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FP-01",
+      "field": "type",
+      "predicted": "Fire Pump",
+      "ground_truth": "Fire Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          189.7550048828125,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FP-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          104.0050048828125,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FP-01",
+      "field": "capacity",
+      "predicted": "1,000 GPM",
+      "ground_truth": "1000 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          384.00299072265625,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FP-01",
+      "field": "manufacturer",
+      "predicted": "Patterson",
+      "ground_truth": "Patterson",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          465.498046875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "J-01",
+      "field": "tag",
+      "predicted": "J-01",
+      "ground_truth": "J-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          97.49800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "J-01",
+      "field": "type",
+      "predicted": "Jockey Pump",
+      "ground_truth": "Jockey Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          200.24899291992188,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "J-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          97.49800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "J-01",
+      "field": "capacity",
+      "predicted": "10 GPM",
+      "ground_truth": "10 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          372.75299072265625,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "J-01",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          465.9930114746094,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FT-01",
+      "field": "tag",
+      "predicted": "FT-01",
+      "ground_truth": "FT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          104.5,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FT-01",
+      "field": "type",
+      "predicted": "Fire Tank",
+      "ground_truth": "Fire Tank",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          187.24400329589844,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FT-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          104.5,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FT-01",
+      "field": "capacity",
+      "predicted": "15,000 gal",
+      "ground_truth": "15000 gal",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          379.9980163574219,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "fire_schedule",
+      "record_key": "FT-01",
+      "field": "manufacturer",
+      "predicted": "CST",
+      "ground_truth": "CST",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          448.5059814453125,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "G-01",
+      "field": "tag",
+      "predicted": "G-01",
+      "ground_truth": "G-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          100.49500274658203,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "G-01",
+      "field": "type",
+      "predicted": "Emergency Generator",
+      "ground_truth": "Emergency Generator",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          231.21800231933594,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "G-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          100.49500274658203,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "G-01",
+      "field": "capacity",
+      "predicted": "450 kW",
+      "ground_truth": "450 kW",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          370.7460021972656,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "G-01",
+      "field": "manufacturer",
+      "predicted": "Caterpillar",
+      "ground_truth": "Caterpillar",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          470.4930725097656,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "ATS-01",
+      "field": "tag",
+      "predicted": "ATS-01",
+      "ground_truth": "ATS-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          110.99800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "ATS-01",
+      "field": "type",
+      "predicted": "Automatic Transfer Switch",
+      "ground_truth": "Automatic Transfer Switch",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          249.98300170898438,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "ATS-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          110.99800109863281,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "ATS-01",
+      "field": "capacity",
+      "predicted": "800 A",
+      "ground_truth": "800 A",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          364.24798583984375,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "generator_schedule",
+      "record_key": "ATS-01",
+      "field": "manufacturer",
+      "predicted": "ASCO",
+      "ground_truth": "ASCO",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          456.0029602050781,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-01",
+      "field": "tag",
+      "predicted": "AHU-01",
+      "ground_truth": "AHU-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          113.49100494384766,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-01",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          217.9969940185547,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          113.49100494384766,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-01",
+      "field": "capacity",
+      "predicted": "25000 CFM",
+      "ground_truth": "25000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          388.00799560546875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-01",
+      "field": "manufacturer",
+      "predicted": "Trane",
+      "ground_truth": "Trane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          452.9880065917969,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-02",
+      "field": "tag",
+      "predicted": "AHU-02",
+      "ground_truth": "AHU-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          113.49100494384766,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-02",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          217.9969940185547,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          113.49100494384766,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-02",
+      "field": "capacity",
+      "predicted": "18000 CFM",
+      "ground_truth": "18000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          388.00799560546875,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "AHU-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          457.488037109375,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-101",
+      "field": "tag",
+      "predicted": "P-101",
+      "ground_truth": "P-101",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          103.5009994506836,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-101",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          216.25099182128906,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-101",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          243.32298278808594,
+          104.5,
+          255.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-101",
+      "field": "capacity",
+      "predicted": "250 GPM",
+      "ground_truth": "250 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          377.25299072265625,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-101",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          465.9930114746094,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-102",
+      "field": "tag",
+      "predicted": "P-102",
+      "ground_truth": "P-102",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          103.5009994506836,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-102",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          199.32298278808594,
+          216.25099182128906,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-102",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          103.5009994506836,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-102",
+      "field": "capacity",
+      "predicted": "120 GPM",
+      "ground_truth": "120 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          199.32298278808594,
+          377.25299072265625,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "P-102",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          199.32298278808594,
+          485.50506591796875,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "FCU-03",
+      "field": "tag",
+      "predicted": "FCU-03",
+      "ground_truth": "FCU-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          221.32298278808594,
+          111.50199890136719,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "FCU-03",
+      "field": "type",
+      "predicted": "Fan Coil Unit",
+      "ground_truth": "Fan Coil Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          221.32298278808594,
+          201.5089874267578,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "FCU-03",
+      "field": "quantity",
+      "predicted": "6",
+      "ground_truth": "6",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.16802978515625,
+          80.32299041748047,
+          258.666015625,
+          92.32898712158203
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "FCU-03",
+      "field": "capacity",
+      "predicted": "1200 CFM",
+      "ground_truth": "1200 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          221.32298278808594,
+          383.50799560546875,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "FCU-03",
+      "field": "manufacturer",
+      "predicted": "Daikin",
+      "ground_truth": "Daikin",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          221.32298278808594,
+          456.4980163574219,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "EF-04",
+      "field": "tag",
+      "predicted": "EF-04",
+      "ground_truth": "EF-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          243.32298278808594,
+          104.5,
+          255.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "EF-04",
+      "field": "type",
+      "predicted": "Exhaust Fan",
+      "ground_truth": "Exhaust Fan",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          243.32298278808594,
+          196.7480010986328,
+          255.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "EF-04",
+      "field": "quantity",
+      "predicted": "3",
+      "ground_truth": "3",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          221.32298278808594,
+          111.50199890136719,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "EF-04",
+      "field": "capacity",
+      "predicted": "5000 CFM",
+      "ground_truth": "5000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          243.32298278808594,
+          383.50799560546875,
+          255.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "EF-04",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          243.32298278808594,
+          470.97900390625,
+          255.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "VAV-12",
+      "field": "tag",
+      "predicted": "VAV-12",
+      "ground_truth": "VAV-12",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          265.322998046875,
+          113.49100494384766,
+          277.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "VAV-12",
+      "field": "type",
+      "predicted": "VAV Box",
+      "ground_truth": "VAV Box",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          265.322998046875,
+          188.74700927734375,
+          277.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "VAV-12",
+      "field": "quantity",
+      "predicted": "8",
+      "ground_truth": "8",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          313.75,
+          265.322998046875,
+          318.25,
+          277.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "VAV-12",
+      "field": "capacity",
+      "predicted": "800 CFM",
+      "ground_truth": "800 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          265.322998046875,
+          376.75799560546875,
+          277.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule",
+      "record_key": "VAV-12",
+      "field": "manufacturer",
+      "predicted": "Titus",
+      "ground_truth": "Titus",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          265.322998046875,
+          450.5040283203125,
+          277.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-01",
+      "field": "tag",
+      "predicted": "AHU-01",
+      "ground_truth": "AHU-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          133.07000732421875,
+          117.21698760986328,
+          171.5590057373047,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-01",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          171.32298278808594,
+          485.4970397949219,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          144.5,
+          171.32298278808594,
+          158.0,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-01",
+      "field": "capacity",
+      "predicted": "25000 CFM",
+      "ground_truth": "25000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          171.32298278808594,
+          280.5080261230469,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-01",
+      "field": "manufacturer",
+      "predicted": "Trane",
+      "ground_truth": "Trane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          171.32298278808594,
+          340.4880065917969,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-02",
+      "field": "tag",
+      "predicted": "AHU-02",
+      "ground_truth": "AHU-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          193.32298278808594,
+          115.99100494384766,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-02",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          193.32298278808594,
+          485.4970397949219,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          171.32298278808594,
+          115.99100494384766,
+          183.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-02",
+      "field": "capacity",
+      "predicted": "18000 CFM",
+      "ground_truth": "18000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          193.32298278808594,
+          280.5080261230469,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "AHU-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          193.32298278808594,
+          344.988037109375,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-101",
+      "field": "tag",
+      "predicted": "P-101",
+      "ground_truth": "P-101",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          215.32298278808594,
+          106.0009994506836,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-101",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          215.32298278808594,
+          483.7510681152344,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-101",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          281.322998046875,
+          107.0,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-101",
+      "field": "capacity",
+      "predicted": "250 GPM",
+      "ground_truth": "250 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          215.32298278808594,
+          269.7530212402344,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-101",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          215.32298278808594,
+          353.4930114746094,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-102",
+      "field": "tag",
+      "predicted": "P-102",
+      "ground_truth": "P-102",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          237.32298278808594,
+          106.0009994506836,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-102",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          237.32298278808594,
+          483.7510681152344,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-102",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          237.32298278808594,
+          106.0009994506836,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-102",
+      "field": "capacity",
+      "predicted": "120 GPM",
+      "ground_truth": "120 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          237.32298278808594,
+          269.7530212402344,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "P-102",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          237.32298278808594,
+          373.00506591796875,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "FCU-03",
+      "field": "tag",
+      "predicted": "FCU-03",
+      "ground_truth": "FCU-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          259.322998046875,
+          114.00199890136719,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "FCU-03",
+      "field": "type",
+      "predicted": "Fan Coil Unit",
+      "ground_truth": "Fan Coil Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          259.322998046875,
+          469.009033203125,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "FCU-03",
+      "field": "quantity",
+      "predicted": "6",
+      "ground_truth": "6",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          208.75,
+          259.322998046875,
+          213.25,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "FCU-03",
+      "field": "capacity",
+      "predicted": "1200 CFM",
+      "ground_truth": "1200 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          259.322998046875,
+          276.0080261230469,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "FCU-03",
+      "field": "manufacturer",
+      "predicted": "Daikin",
+      "ground_truth": "Daikin",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          259.322998046875,
+          343.9980163574219,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "EF-04",
+      "field": "tag",
+      "predicted": "EF-04",
+      "ground_truth": "EF-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          281.322998046875,
+          107.0,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "EF-04",
+      "field": "type",
+      "predicted": "Exhaust Fan",
+      "ground_truth": "Exhaust Fan",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          281.322998046875,
+          464.2480163574219,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "EF-04",
+      "field": "quantity",
+      "predicted": "3",
+      "ground_truth": "3",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          259.322998046875,
+          114.00199890136719,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "EF-04",
+      "field": "capacity",
+      "predicted": "5000 CFM",
+      "ground_truth": "5000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          281.322998046875,
+          276.0080261230469,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "EF-04",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          281.322998046875,
+          358.47900390625,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "VAV-12",
+      "field": "tag",
+      "predicted": "VAV-12",
+      "ground_truth": "VAV-12",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          303.322998046875,
+          115.99100494384766,
+          315.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "VAV-12",
+      "field": "type",
+      "predicted": "VAV Box",
+      "ground_truth": "VAV Box",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          303.322998046875,
+          456.2469482421875,
+          315.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "VAV-12",
+      "field": "quantity",
+      "predicted": "8",
+      "ground_truth": "8",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          144.5,
+          303.322998046875,
+          149.0,
+          315.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "VAV-12",
+      "field": "capacity",
+      "predicted": "800 CFM",
+      "ground_truth": "800 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          303.322998046875,
+          269.2580261230469,
+          315.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_messy",
+      "record_key": "VAV-12",
+      "field": "manufacturer",
+      "predicted": "Titus",
+      "ground_truth": "Titus",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.95,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          303.322998046875,
+          338.0039978027344,
+          315.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-01",
+      "field": "tag",
+      "predicted": "AHU-01",
+      "ground_truth": "AHU-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-01",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.16,
+          137.28,
+          215.51999999999998,
+          145.44
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          159.84,
+          111.36,
+          166.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-01",
+      "field": "capacity",
+      "predicted": "25000 CFM",
+      "ground_truth": "25000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-01",
+      "field": "manufacturer",
+      "predicted": "Trane",
+      "ground_truth": "Trane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.03999999999996,
+          135.84,
+          451.2,
+          142.07999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-02",
+      "field": "tag",
+      "predicted": "AHU-02",
+      "ground_truth": "AHU-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          159.84,
+          111.36,
+          166.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-02",
+      "field": "type",
+      "predicted": "Air Handling Unit",
+      "ground_truth": "Air Handling Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.2,
+          159.35999999999999,
+          216.0,
+          167.51999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-02",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          83.03999999999999,
+          138.24,
+          110.39999999999999,
+          144.0
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-02",
+      "field": "capacity",
+      "predicted": "18000 CFM",
+      "ground_truth": "18000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "AHU-02",
+      "field": "manufacturer",
+      "predicted": "Carrier",
+      "ground_truth": "Carrier",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          430.56,
+          157.92,
+          455.52,
+          164.16
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-101",
+      "field": "tag",
+      "predicted": "P-101",
+      "ground_truth": "P-101",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-101",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          150.72,
+          181.44,
+          214.56,
+          189.12
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-101",
+      "field": "quantity",
+      "predicted": "4",
+      "ground_truth": "4",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-101",
+      "field": "capacity",
+      "predicted": "250 GPM",
+      "ground_truth": "250 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          341.28,
+          180.0,
+          375.36,
+          186.23999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-101",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.03999999999996,
+          180.0,
+          464.15999999999997,
+          185.76
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-102",
+      "field": "tag",
+      "predicted": "P-102",
+      "ground_truth": "P-102",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.6,
+          204.0,
+          101.75999999999999,
+          210.23999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-102",
+      "field": "type",
+      "predicted": "Centrifugal Pump",
+      "ground_truth": "Centrifugal Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.2,
+          203.51999999999998,
+          215.04,
+          211.67999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-102",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.6,
+          204.0,
+          101.75999999999999,
+          210.23999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-102",
+      "field": "capacity",
+      "predicted": "120 GPM",
+      "ground_truth": "120 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.24,
+          202.56,
+          375.36,
+          208.79999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "P-102",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.52,
+          201.6,
+          483.84,
+          207.84
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "FCU-03",
+      "field": "tag",
+      "predicted": "FCU-03",
+      "ground_truth": "FCU-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "FCU-03",
+      "field": "type",
+      "predicted": "Fan Coil Unit",
+      "ground_truth": "Fan Coil Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.68,
+          226.07999999999998,
+          199.68,
+          232.32
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "FCU-03",
+      "field": "quantity",
+      "predicted": "6",
+      "ground_truth": "6",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "FCU-03",
+      "field": "capacity",
+      "predicted": "1200 CFM",
+      "ground_truth": "1200 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.71999999999997,
+          224.64,
+          382.08,
+          230.88
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "FCU-03",
+      "field": "manufacturer",
+      "predicted": "Daikin",
+      "ground_truth": "Daikin",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.52,
+          224.16,
+          455.03999999999996,
+          230.39999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "EF-04",
+      "field": "tag",
+      "predicted": "EF-04",
+      "ground_truth": "EF-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "EF-04",
+      "field": "type",
+      "predicted": "Exhaust Fan",
+      "ground_truth": "Exhaust Fan",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.68,
+          247.67999999999998,
+          195.35999999999999,
+          253.92
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "EF-04",
+      "field": "quantity",
+      "predicted": "3",
+      "ground_truth": "3",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.6,
+          226.07999999999998,
+          109.92,
+          232.32
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "EF-04",
+      "field": "capacity",
+      "predicted": "5000 CFM",
+      "ground_truth": "5000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          341.76,
+          246.23999999999998,
+          382.08,
+          252.48
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "EF-04",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.03999999999996,
+          245.76,
+          469.44,
+          252.0
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "VAV-12",
+      "field": "tag",
+      "predicted": "VAV-12",
+      "ground_truth": "VAV-12",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.08,
+          270.24,
+          111.83999999999999,
+          276.48
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "VAV-12",
+      "field": "type",
+      "predicted": "VAV Box",
+      "ground_truth": "VAV Box",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "VAV-12",
+      "field": "quantity",
+      "predicted": "8",
+      "ground_truth": "8",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          341.76,
+          268.32,
+          365.28,
+          274.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "VAV-12",
+      "field": "capacity",
+      "predicted": "800 CFM",
+      "ground_truth": "800 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "hvac_schedule_scanned",
+      "record_key": "VAV-12",
+      "field": "manufacturer",
+      "predicted": "Titus",
+      "ground_truth": "Titus",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.96,
+          267.84,
+          449.28,
+          274.08
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-01",
+      "field": "tag",
+      "predicted": "KE-01",
+      "ground_truth": "KE-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          105.99400329589844,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-01",
+      "field": "type",
+      "predicted": "Exhaust Hood",
+      "ground_truth": "Exhaust Hood",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          203.24600219726562,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.99400329589844,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-01",
+      "field": "capacity",
+      "predicted": "5,000 CFM",
+      "ground_truth": "5000 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          383.50799560546875,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-01",
+      "field": "manufacturer",
+      "predicted": "CaptiveAire",
+      "ground_truth": "CaptiveAire",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          475.9920349121094,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-02",
+      "field": "tag",
+      "predicted": "KE-02",
+      "ground_truth": "KE-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.99400329589844,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-02",
+      "field": "type",
+      "predicted": "Makeup Air Unit",
+      "ground_truth": "Makeup Air Unit",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          213.99200439453125,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-02",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          105.99400329589844,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-02",
+      "field": "capacity",
+      "predicted": "4,500 CFM",
+      "ground_truth": "4500 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          383.50799560546875,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-02",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          470.97900390625,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-03",
+      "field": "tag",
+      "predicted": "KE-03",
+      "ground_truth": "KE-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          105.99400329589844,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-03",
+      "field": "type",
+      "predicted": "Dishwasher Exhaust",
+      "ground_truth": "Dishwasher Exhaust",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          225.7370147705078,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-03",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          105.99400329589844,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-03",
+      "field": "capacity",
+      "predicted": "800 CFM",
+      "ground_truth": "800 CFM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          376.75799560546875,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "kitchen_schedule",
+      "record_key": "KE-03",
+      "field": "manufacturer",
+      "predicted": "Greenheck",
+      "ground_truth": "Greenheck",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          470.97900390625,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-01",
+      "field": "tag",
+      "predicted": "LT-01",
+      "ground_truth": "LT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          104.99500274658203,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-01",
+      "field": "type",
+      "predicted": "LED Troffer",
+      "ground_truth": "LED Troffer",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          197.72900390625,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-01",
+      "field": "quantity",
+      "predicted": "24",
+      "ground_truth": "24",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          311.5,
+          133.32298278808594,
+          320.5,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-01",
+      "field": "capacity",
+      "predicted": "4,000 lm",
+      "ground_truth": "4000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          374.0040283203125,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-01",
+      "field": "manufacturer",
+      "predicted": "Lithonia",
+      "ground_truth": "Lithonia",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          462.50103759765625,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-02",
+      "field": "tag",
+      "predicted": "LT-02",
+      "ground_truth": "LT-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          104.99500274658203,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-02",
+      "field": "type",
+      "predicted": "Downlight",
+      "ground_truth": "Downlight",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          190.5019989013672,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-02",
+      "field": "quantity",
+      "predicted": "12",
+      "ground_truth": "12",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          311.5,
+          155.32298278808594,
+          320.5,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-02",
+      "field": "capacity",
+      "predicted": "800 lm",
+      "ground_truth": "800 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          367.2540283203125,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-02",
+      "field": "manufacturer",
+      "predicted": "Halo",
+      "ground_truth": "Halo",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          449.4960021972656,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-03",
+      "field": "tag",
+      "predicted": "LT-03",
+      "ground_truth": "LT-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          104.99500274658203,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-03",
+      "field": "type",
+      "predicted": "High Bay",
+      "ground_truth": "High Bay",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          186.74899291992188,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-03",
+      "field": "quantity",
+      "predicted": "6",
+      "ground_truth": "6",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          313.75,
+          177.32298278808594,
+          318.25,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-03",
+      "field": "capacity",
+      "predicted": "24,000 lm",
+      "ground_truth": "24000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          378.5040283203125,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-03",
+      "field": "manufacturer",
+      "predicted": "Holophane",
+      "ground_truth": "Holophane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          471.49200439453125,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-04",
+      "field": "tag",
+      "predicted": "LT-04",
+      "ground_truth": "LT-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          104.99500274658203,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-04",
+      "field": "type",
+      "predicted": "Wall Pack",
+      "ground_truth": "Wall Pack",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          199.32298278808594,
+          189.24200439453125,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-04",
+      "field": "quantity",
+      "predicted": "8",
+      "ground_truth": "8",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          313.75,
+          199.32298278808594,
+          318.25,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-04",
+      "field": "capacity",
+      "predicted": "5,000 lm",
+      "ground_truth": "5000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          199.32298278808594,
+          374.0040283203125,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-04",
+      "field": "manufacturer",
+      "predicted": "Lithonia",
+      "ground_truth": "Lithonia",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          199.32298278808594,
+          462.50103759765625,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-05",
+      "field": "tag",
+      "predicted": "LT-05",
+      "ground_truth": "LT-05",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          221.32298278808594,
+          104.99500274658203,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-05",
+      "field": "type",
+      "predicted": "Exit Sign",
+      "ground_truth": "Exit Sign",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          221.32298278808594,
+          185.75900268554688,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-05",
+      "field": "quantity",
+      "predicted": "16",
+      "ground_truth": "16",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          311.5,
+          221.32298278808594,
+          320.5,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-05",
+      "field": "capacity",
+      "predicted": "2 W",
+      "ground_truth": "2 W",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          221.32298278808594,
+          357.2460021972656,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule",
+      "record_key": "LT-05",
+      "field": "manufacturer",
+      "predicted": "Dual-Lite",
+      "ground_truth": "Dual-Lite",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          221.32298278808594,
+          466.9920349121094,
+          233.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-01",
+      "field": "tag",
+      "predicted": "LT-01",
+      "ground_truth": "LT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          193.32298278808594,
+          107.49500274658203,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-01",
+      "field": "type",
+      "predicted": "LED Troffer",
+      "ground_truth": "LED Troffer",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          193.32298278808594,
+          465.22900390625,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-01",
+      "field": "quantity",
+      "predicted": "24",
+      "ground_truth": "24",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          206.5,
+          193.32298278808594,
+          215.5,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-01",
+      "field": "capacity",
+      "predicted": "4,000 lm",
+      "ground_truth": "4000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          193.32298278808594,
+          266.5040283203125,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-01",
+      "field": "manufacturer",
+      "predicted": "Lithonia",
+      "ground_truth": "Lithonia",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          193.32298278808594,
+          350.0010070800781,
+          205.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-02",
+      "field": "tag",
+      "predicted": "LT-02",
+      "ground_truth": "LT-02",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          215.32298278808594,
+          107.49500274658203,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-02",
+      "field": "type",
+      "predicted": "Downlight",
+      "ground_truth": "Downlight",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          215.32298278808594,
+          458.00201416015625,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-02",
+      "field": "quantity",
+      "predicted": "12",
+      "ground_truth": "12",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          206.5,
+          215.32298278808594,
+          215.5,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-02",
+      "field": "capacity",
+      "predicted": "800 lm",
+      "ground_truth": "800 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          215.32298278808594,
+          259.7539978027344,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-02",
+      "field": "manufacturer",
+      "predicted": "Halo",
+      "ground_truth": "Halo",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          215.32298278808594,
+          336.9960021972656,
+          227.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-03",
+      "field": "tag",
+      "predicted": "LT-03",
+      "ground_truth": "LT-03",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          237.32298278808594,
+          107.49500274658203,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-03",
+      "field": "type",
+      "predicted": "High Bay",
+      "ground_truth": "High Bay",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          237.32298278808594,
+          454.2489929199219,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-03",
+      "field": "quantity",
+      "predicted": "6",
+      "ground_truth": "6",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          208.75,
+          237.32298278808594,
+          213.25,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-03",
+      "field": "capacity",
+      "predicted": "24,000 lm",
+      "ground_truth": "24000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          237.32298278808594,
+          271.0040283203125,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-03",
+      "field": "manufacturer",
+      "predicted": "Holophane",
+      "ground_truth": "Holophane",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          237.32298278808594,
+          358.99200439453125,
+          249.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-04",
+      "field": "tag",
+      "predicted": "LT-04",
+      "ground_truth": "LT-04",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          259.322998046875,
+          107.49500274658203,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-04",
+      "field": "type",
+      "predicted": "Wall Pack",
+      "ground_truth": "Wall Pack",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          259.322998046875,
+          456.7420349121094,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-04",
+      "field": "quantity",
+      "predicted": "8",
+      "ground_truth": "8",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          208.75,
+          259.322998046875,
+          213.25,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-04",
+      "field": "capacity",
+      "predicted": "5,000 lm",
+      "ground_truth": "5000 lm",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          259.322998046875,
+          266.5040283203125,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-04",
+      "field": "manufacturer",
+      "predicted": "Lithonia",
+      "ground_truth": "Lithonia",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          259.322998046875,
+          350.0010070800781,
+          271.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-05",
+      "field": "tag",
+      "predicted": "LT-05",
+      "ground_truth": "LT-05",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          84.5,
+          281.322998046875,
+          107.49500274658203,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-05",
+      "field": "type",
+      "predicted": "Exit Sign",
+      "ground_truth": "Exit Sign",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          419.5,
+          281.322998046875,
+          453.259033203125,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-05",
+      "field": "quantity",
+      "predicted": "16",
+      "ground_truth": "16",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          206.5,
+          281.322998046875,
+          215.5,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-05",
+      "field": "capacity",
+      "predicted": "2 W",
+      "ground_truth": "2 W",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          234.5,
+          281.322998046875,
+          249.74600219726562,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "lighting_schedule_messy",
+      "record_key": "LT-05",
+      "field": "manufacturer",
+      "predicted": "Dual-Lite",
+      "ground_truth": "Dual-Lite",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          319.5,
+          281.322998046875,
+          354.4920349121094,
+          293.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "B-01",
+      "field": "tag",
+      "predicted": "B-01",
+      "ground_truth": "B-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          135.52301025390625,
+          102.21698760986328,
+          157.52301025390625,
+          116.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "B-01",
+      "field": "type",
+      "predicted": "Hot Water Boiler",
+      "ground_truth": "Hot Water Boiler",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          56.400001525878906,
+          102.21698760986328,
+          132.77301025390625,
+          116.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "B-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          195.41799926757812,
+          117.21698760986328,
+          200.91799926757812,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "B-01",
+      "field": "capacity",
+      "predicted": "2,000 MBH",
+      "ground_truth": "2000 MBH",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          356.1060485839844,
+          102.21698760986328,
+          408.6640319824219,
+          116.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "B-01",
+      "field": "manufacturer",
+      "predicted": "Aerco",
+      "ground_truth": "Aerco",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          411.4140319824219,
+          102.21698760986328,
+          448.3630065917969,
+          116.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "CH-01",
+      "field": "tag",
+      "predicted": "CH-01",
+      "ground_truth": "CH-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          56.400001525878906,
+          117.21698760986328,
+          86.34200286865234,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "CH-01",
+      "field": "type",
+      "predicted": "Centrifugal Chiller",
+      "ground_truth": "Centrifugal Chiller",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          230.32298278808594,
+          220.2469940185547,
+          242.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "CH-01",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          195.41799926757812,
+          117.21698760986328,
+          200.91799926757812,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "CH-01",
+      "field": "capacity",
+      "predicted": "400 tons",
+      "ground_truth": "400 tons",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          284.9250183105469,
+          117.21698760986328,
+          322.5119934082031,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "CH-01",
+      "field": "manufacturer",
+      "predicted": "York",
+      "ground_truth": "York",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          325.2619934082031,
+          117.21698760986328,
+          357.9429626464844,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "G-01",
+      "field": "tag",
+      "predicted": "G-01",
+      "ground_truth": "G-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          460.2649841308594,
+          117.21698760986328,
+          482.8699645996094,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "G-01",
+      "field": "type",
+      "predicted": "Emergency Generator",
+      "ground_truth": "Emergency Generator",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          360.6929626464844,
+          117.21698760986328,
+          457.5149841308594,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "G-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          460.2649841308594,
+          117.21698760986328,
+          482.8699645996094,
+          131.8909912109375
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "G-01",
+      "field": "capacity",
+      "predicted": "450 kW",
+      "ground_truth": "450 kW",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          252.32298278808594,
+          370.7460021972656,
+          264.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "mixed_notes",
+      "record_key": "G-01",
+      "field": "manufacturer",
+      "predicted": "Caterpillar",
+      "ground_truth": "Caterpillar",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.99,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          252.32298278808594,
+          470.4930725097656,
+          264.3289794921875
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-201",
+      "field": "tag",
+      "predicted": "P-201",
+      "ground_truth": "P-201",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          103.5009994506836,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-201",
+      "field": "type",
+      "predicted": "Domestic Water Pump",
+      "ground_truth": "Domestic Water Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          133.32298278808594,
+          233.989990234375,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-201",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          133.32298278808594,
+          103.5009994506836,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-201",
+      "field": "capacity",
+      "predicted": "80 GPM",
+      "ground_truth": "80 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          133.32298278808594,
+          372.75299072265625,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-201",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          133.32298278808594,
+          465.9930114746094,
+          145.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-202",
+      "field": "tag",
+      "predicted": "P-202",
+      "ground_truth": "P-202",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          103.5009994506836,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-202",
+      "field": "type",
+      "predicted": "Hot Water Recirc Pump",
+      "ground_truth": "Hot Water Recirc Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          155.32298278808594,
+          238.73300170898438,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-202",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          155.32298278808594,
+          103.5009994506836,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-202",
+      "field": "capacity",
+      "predicted": "25 GPM",
+      "ground_truth": "25 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          155.32298278808594,
+          372.75299072265625,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "P-202",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          155.32298278808594,
+          485.50506591796875,
+          167.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "WH-01",
+      "field": "tag",
+      "predicted": "WH-01",
+      "ground_truth": "WH-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          108.99099731445312,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "WH-01",
+      "field": "type",
+      "predicted": "Water Heater",
+      "ground_truth": "Water Heater",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          177.32298278808594,
+          200.2220001220703,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "WH-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          177.32298278808594,
+          108.99099731445312,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "WH-01",
+      "field": "capacity",
+      "predicted": "199 MBH",
+      "ground_truth": "199 MBH",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          177.32298278808594,
+          378.2519836425781,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "WH-01",
+      "field": "manufacturer",
+      "predicted": "AO Smith",
+      "ground_truth": "AO Smith",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          177.32298278808594,
+          468.7560119628906,
+          189.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "HWT-01",
+      "field": "tag",
+      "predicted": "HWT-01",
+      "ground_truth": "HWT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          114.49000549316406,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "HWT-01",
+      "field": "type",
+      "predicted": "Hot Water Storage Tank",
+      "ground_truth": "Hot Water Storage Tank",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          152.0,
+          199.32298278808594,
+          240.2270050048828,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "HWT-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          82.0,
+          199.32298278808594,
+          114.49000549316406,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "HWT-01",
+      "field": "capacity",
+      "predicted": "120 gal",
+      "ground_truth": "120 gal",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.0,
+          199.32298278808594,
+          368.7480163574219,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule",
+      "record_key": "HWT-01",
+      "field": "manufacturer",
+      "predicted": "Lochinvar",
+      "ground_truth": "Lochinvar",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.98,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.0,
+          199.32298278808594,
+          468.9900207519531,
+          211.32899475097656
+        ]
+      },
+      "used_ocr": false
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-201",
+      "field": "tag",
+      "predicted": "P-201",
+      "ground_truth": "P-201",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          137.76,
+          100.32,
+          144.48
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-201",
+      "field": "type",
+      "predicted": "Domestic Water Pump",
+      "ground_truth": "Domestic Water Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          150.72,
+          137.28,
+          232.32,
+          144.96
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-201",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          137.76,
+          100.32,
+          144.48
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-201",
+      "field": "capacity",
+      "predicted": "80 GPM",
+      "ground_truth": "80 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          340.8,
+          136.32,
+          370.56,
+          142.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-201",
+      "field": "manufacturer",
+      "predicted": "Grundfos",
+      "ground_truth": "Grundfos",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          430.56,
+          135.84,
+          464.15999999999997,
+          142.07999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-202",
+      "field": "tag",
+      "predicted": "P-202",
+      "ground_truth": "P-202",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          159.84,
+          101.75999999999999,
+          166.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-202",
+      "field": "type",
+      "predicted": "Hot Water Recirc Pump",
+      "ground_truth": "Hot Water Recirc Pump",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-202",
+      "field": "quantity",
+      "predicted": "2",
+      "ground_truth": "2",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          159.84,
+          101.75999999999999,
+          166.56
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-202",
+      "field": "capacity",
+      "predicted": "25 GPM",
+      "ground_truth": "25 GPM",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          341.28,
+          158.4,
+          370.56,
+          165.12
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "P-202",
+      "field": "manufacturer",
+      "predicted": "Bell & Gossett",
+      "ground_truth": "Bell & Gossett",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.03999999999996,
+          157.92,
+          483.35999999999996,
+          164.16
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "WH-01",
+      "field": "tag",
+      "predicted": "WH-01",
+      "ground_truth": "WH-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          181.92,
+          106.08,
+          188.16
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "WH-01",
+      "field": "type",
+      "predicted": "Water Heater",
+      "ground_truth": "Water Heater",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.2,
+          181.44,
+          198.72,
+          187.68
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "WH-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          81.11999999999999,
+          181.92,
+          106.08,
+          188.16
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "WH-01",
+      "field": "capacity",
+      "predicted": "199 MBH",
+      "ground_truth": "199 MBH",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.24,
+          180.0,
+          376.32,
+          186.23999999999998
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "WH-01",
+      "field": "manufacturer",
+      "predicted": "AO Smith",
+      "ground_truth": "AO Smith",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          432.47999999999996,
+          180.0,
+          467.03999999999996,
+          185.76
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "HWT-01",
+      "field": "tag",
+      "predicted": "HWT-01",
+      "ground_truth": "HWT-01",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.6615,
+      "source": null,
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "HWT-01",
+      "field": "type",
+      "predicted": "Hot Water Storage Tank",
+      "ground_truth": "Hot Water Storage Tank",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          151.68,
+          203.04,
+          238.56,
+          211.2
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "HWT-01",
+      "field": "quantity",
+      "predicted": "1",
+      "ground_truth": "1",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          233.28,
+          84.47999999999999,
+          250.56,
+          89.75999999999999
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "HWT-01",
+      "field": "capacity",
+      "predicted": "120 gal",
+      "ground_truth": "120 gal",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          342.24,
+          202.07999999999998,
+          367.2,
+          210.72
+        ]
+      },
+      "used_ocr": true
+    },
+    {
+      "document_id": "plumbing_schedule_scanned",
+      "record_key": "HWT-01",
+      "field": "manufacturer",
+      "predicted": "Lochinvar",
+      "ground_truth": "Lochinvar",
+      "match": true,
+      "failure_type": null,
+      "confidence": 0.882,
+      "source": {
+        "page": 1,
+        "bbox": [
+          431.52,
+          201.6,
+          467.52,
+          208.32
+        ]
+      },
+      "used_ocr": true
+    }
+  ],
+  "failure_counts": {
+    "missing": 1
+  }
+}

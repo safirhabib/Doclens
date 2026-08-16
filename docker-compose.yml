@@ -1,0 +1,32 @@
+services:
+  api:
+    build: .
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      MLFLOW_TRACKING_URI: file:/app/mlruns
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+      - ./mlruns:/app/mlruns
+
+  streamlit:
+    build: .
+    command: streamlit run streamlit_app/Home.py --server.port 8501 --server.address 0.0.0.0 --server.headless true
+    environment:
+      DOCLENS_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+
+  mlflow:
+    build: .
+    command: mlflow ui --host 0.0.0.0 --port 5000 --backend-store-uri file:/app/mlruns
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/app/mlruns

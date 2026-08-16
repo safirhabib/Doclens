@@ -1,0 +1,26 @@
+{
+  "document_id": "mixed_notes",
+  "equipment": [
+    {
+      "tag": "B-01",
+      "type": "Hot Water Boiler",
+      "quantity": 2,
+      "capacity": "2000 MBH",
+      "manufacturer": "Aerco"
+    },
+    {
+      "tag": "CH-01",
+      "type": "Centrifugal Chiller",
+      "quantity": 2,
+      "capacity": "400 tons",
+      "manufacturer": "York"
+    },
+    {
+      "tag": "G-01",
+      "type": "Emergency Generator",
+      "quantity": 1,
+      "capacity": "450 kW",
+      "manufacturer": "Caterpillar"
+    }
+  ]
+}

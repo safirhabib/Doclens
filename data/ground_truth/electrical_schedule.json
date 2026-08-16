@@ -1,0 +1,33 @@
+{
+  "document_id": "electrical_schedule",
+  "equipment": [
+    {
+      "tag": "PN-01",
+      "type": "Panelboard",
+      "quantity": 4,
+      "capacity": "400 A",
+      "manufacturer": "Square D"
+    },
+    {
+      "tag": "PN-02",
+      "type": "Panelboard",
+      "quantity": 2,
+      "capacity": "225 A",
+      "manufacturer": "Square D"
+    },
+    {
+      "tag": "UPS-01",
+      "type": "UPS",
+      "quantity": 1,
+      "capacity": "80 kVA",
+      "manufacturer": "Eaton"
+    },
+    {
+      "tag": "XF-01",
+      "type": "Transformer",
+      "quantity": 2,
+      "capacity": "500 kVA",
+      "manufacturer": "Eaton"
+    }
+  ]
+}

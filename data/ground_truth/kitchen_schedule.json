@@ -1,0 +1,26 @@
+{
+  "document_id": "kitchen_schedule",
+  "equipment": [
+    {
+      "tag": "KE-01",
+      "type": "Exhaust Hood",
+      "quantity": 2,
+      "capacity": "5000 CFM",
+      "manufacturer": "CaptiveAire"
+    },
+    {
+      "tag": "KE-02",
+      "type": "Makeup Air Unit",
+      "quantity": 2,
+      "capacity": "4500 CFM",
+      "manufacturer": "Greenheck"
+    },
+    {
+      "tag": "KE-03",
+      "type": "Dishwasher Exhaust",
+      "quantity": 1,
+      "capacity": "800 CFM",
+      "manufacturer": "Greenheck"
+    }
+  ]
+}

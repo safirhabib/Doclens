@@ -1,0 +1,40 @@
+{
+  "document_id": "lighting_schedule_messy",
+  "equipment": [
+    {
+      "tag": "LT-01",
+      "type": "LED Troffer",
+      "quantity": 24,
+      "capacity": "4000 lm",
+      "manufacturer": "Lithonia"
+    },
+    {
+      "tag": "LT-02",
+      "type": "Downlight",
+      "quantity": 12,
+      "capacity": "800 lm",
+      "manufacturer": "Halo"
+    },
+    {
+      "tag": "LT-03",
+      "type": "High Bay",
+      "quantity": 6,
+      "capacity": "24000 lm",
+      "manufacturer": "Holophane"
+    },
+    {
+      "tag": "LT-04",
+      "type": "Wall Pack",
+      "quantity": 8,
+      "capacity": "5000 lm",
+      "manufacturer": "Lithonia"
+    },
+    {
+      "tag": "LT-05",
+      "type": "Exit Sign",
+      "quantity": 16,
+      "capacity": "2 W",
+      "manufacturer": "Dual-Lite"
+    }
+  ]
+}

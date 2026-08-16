@@ -1,0 +1,26 @@
+{
+  "document_id": "boiler_schedule",
+  "equipment": [
+    {
+      "tag": "B-01",
+      "type": "Hot Water Boiler",
+      "quantity": 2,
+      "capacity": "2000 MBH",
+      "manufacturer": "Aerco"
+    },
+    {
+      "tag": "B-02",
+      "type": "Condensing Boiler",
+      "quantity": 1,
+      "capacity": "1500 MBH",
+      "manufacturer": "Viessmann"
+    },
+    {
+      "tag": "P-301",
+      "type": "Boiler Circ Pump",
+      "quantity": 3,
+      "capacity": "150 GPM",
+      "manufacturer": "Grundfos"
+    }
+  ]
+}

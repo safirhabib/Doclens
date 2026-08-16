@@ -1,0 +1,40 @@
+{
+  "document_id": "challenge_messy",
+  "equipment": [
+    {
+      "tag": "AHU-01",
+      "type": "Air Handling Unit",
+      "quantity": 2,
+      "capacity": "25000 CFM",
+      "manufacturer": "Trane"
+    },
+    {
+      "tag": "AHU-02",
+      "type": "Air Handling Unit",
+      "quantity": 1,
+      "capacity": "18000 CFM",
+      "manufacturer": "Carrier"
+    },
+    {
+      "tag": "P-101",
+      "type": "Centrifugal Pump",
+      "quantity": 4,
+      "capacity": "250 GPM",
+      "manufacturer": "Grundfos"
+    },
+    {
+      "tag": "EF-04",
+      "type": "Exhaust Fan",
+      "quantity": 3,
+      "capacity": "5000 CFM",
+      "manufacturer": "Greenheck"
+    },
+    {
+      "tag": "G-01",
+      "type": "Emergency Generator",
+      "quantity": 1,
+      "capacity": "450 kW",
+      "manufacturer": "Caterpillar"
+    }
+  ]
+}

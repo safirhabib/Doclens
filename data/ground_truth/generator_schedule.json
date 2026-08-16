@@ -1,0 +1,19 @@
+{
+  "document_id": "generator_schedule",
+  "equipment": [
+    {
+      "tag": "G-01",
+      "type": "Emergency Generator",
+      "quantity": 1,
+      "capacity": "450 kW",
+      "manufacturer": "Caterpillar"
+    },
+    {
+      "tag": "ATS-01",
+      "type": "Automatic Transfer Switch",
+      "quantity": 1,
+      "capacity": "800 A",
+      "manufacturer": "ASCO"
+    }
+  ]
+}
